@@ -1,0 +1,20 @@
+{
+  "name": "zelo.dev",
+  "version": "1.0.0",
+  "author": "Zelo101",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vite-plugin-solid": "^2.0.1"
+  },
+  "dependencies": {
+    "solid-js": "^1.1.0"
+  }
+}

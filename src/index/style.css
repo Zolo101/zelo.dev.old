@@ -1,0 +1,50 @@
+body {
+  background-color: lightslategray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
+}
+
+.block {
+  margin: 5px 10px;
+  padding: 2rem 1rem;
+  border-radius: 1px;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .blocks {
+    grid-template-columns: initial;
+  }
+}
